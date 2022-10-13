@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+/* Menu */
+.title{
+    text-align: center;
+    padding: 10px;
+    color: #2E4053;
+    font-family: Snell Roundhand, cursive;
+}
+.bg-light {
+    background-color: #E0F7FA !important;
+}
+.current-page{
+    font-weight: bold;
+}
+
+
+
+
+
+
+.large-photo{
+    width: 100%;
+    position: relative;
+}
+
+
+
+.page{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.page-title{
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin: 0px;
+}
+p{
+    background-color: #FFFDE7;
+    padding: 30px;
+    width: 100%;
+    margin: 0px;
+}
+.page-subtitle{
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin: 0px;
+}
+
+
+
+
+
+.bottom{
+    background-color: #515A5A;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.bottom-title{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-family: Snell Roundhand, cursive;
+    margin-bottom: 0%;
+}
+.bottom-menu{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.bottom-menu-item{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.bottom-menu-item:hover{
+    text-decoration: underline;
+    color: white;
+}
+.line{
+    height: 1px;
+    color: white;
+}
+.disclosure{
+    padding: 10px 20px 20px 10px;
+    background-color: #515A5A;
+    color: white;
+    font-size: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 400px) {
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 1199px) {
+.title{
+    padding: 20px;
+}
+
+
+.bottom{
+    align-items: center;
+    margin: 0px;
+}
+.bottom-title{
+    width: 33%;
+    margin: 5%;
+}
+.bottom-menu{
+    width: 33%;
+}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1200px) {
+.page {
+    width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    padding: 20px;
+}
+.bottom{
+    align-items: center;
+}
+.bottom-title{
+    width: 25%;
+    margin: 5%;
+}
+.bottom-menu{
+    width: 25%;
+}
+}
